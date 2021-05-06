@@ -43,9 +43,10 @@ a:hover {
 .boxes {
   margin: 1em;
   padding: 1em;
-  border: 3px darkblue solid; 
+  border: 3px darkblue solid;
   border-radius: 5px;
   width: 30em;
+  display: block;
 }
 
 #box1 {
@@ -63,3 +64,46 @@ a:hover {
 #box4 {
   background-color: slategray;
 }
+
+.images {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: chartreuse;
+  position: relative;
+  left: 150px;
+}
+
+h1 {
+  color: teal;
+}
+
+.original {
+  color: deeppink;
+}
+.additional {
+  color: chartreuse;
+}
+#show1 {
+  color: aqua;
+}
+#show2 {
+  color: blue;
+}
+#show3 {
+  color: brown;
+}
+#show4 {
+  color: crimson;
+}
+#show5 {
+  color: darkgreen;
+}
+
+ul {color: tomato;}
+
+.star {color: seagreen;}
+
+#wars {color:rgb(255, 0, 170);}
+
+div {border: solid black;}
