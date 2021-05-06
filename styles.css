@@ -1,4 +1,65 @@
-body {font-family: 'Girassol', cursive;
-    background-color: lightgray;
-    
+body {
+  font-family: "Girassol", cursive;
+  background-color: lightgray;
+}
+
+h2,
+p,
+.readme-wrapper {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: deeppink;
+}
+
+a:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: mediumaquamarine;
+}
+
+.font-light-blue {
+  color: lightskyblue;
+  font-weight: bolder;
+}
+
+.font-red {
+  color: red;
+  font-weight: bolder;
+}
+
+.font-aqua {
+  color: aquamarine;
+  font-weight: bolder;
+}
+
+.font-maroon {
+  color: maroon;
+  font-weight: bolder;
+}
+
+.boxes {
+  margin: 1em;
+  padding: 1em;
+  border: 3px darkblue solid; 
+  border-radius: 5px;
+  width: 30em;
+}
+
+#box1 {
+  background-color: royalblue;
+}
+
+#box2 {
+  background-color: palegoldenrod;
+}
+
+#box3 {
+  background-color: seagreen;
+}
+
+#box4 {
+  background-color: slategray;
 }
